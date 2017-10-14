@@ -10,8 +10,8 @@ public class ContractPhonebook {
     public static final String PATH  = "/phonebook";
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + PATH);
 
-    public static final String CONTENT_PHONEBOOK_LIST = "vnd.android.cursor.dir/vnd.com.devanshapps.programmingreferences.words";
-    public static final String CONTENT_PHONEBOOK_ITEM = "vnd.android.cursor.item/vnd.com.devanshapps.programmingreferences.words";
+    public static final String CONTENT_PHONEBOOK_LIST = "vnd.android.cursor.dir/vnd.com.devanshapps.programmingreferences.phonebook";
+    public static final String CONTENT_PHONEBOOK_ITEM = "vnd.android.cursor.item/vnd.com.devanshapps.programmingreferences.phonebook";
 
     public static final String DATABASE_NAME = "phone_book_db";
     public static final int DATABASE_VERSION = 2;
