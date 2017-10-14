@@ -3,8 +3,6 @@
     package="com.devanshapps.programmingreferences">
 
 
-    <uses-permission android:name="tv.trace.tracepp.ACCESS_DATA" />
-
     <permission android:name="com.devanshapps.programmingreferences.READ_DATABASE"
         android:protectionLevel="normal" />
 
@@ -22,7 +20,7 @@
             </intent-filter>
         </activity>
         <provider
-            android:authorities="com.devanshapps.programmingreferences.Dictionary"
+            android:authorities="com.devanshapps.programmingreferences.Phonebook"
             android:name="com.devanshapps.programmingreferences.PhonebookProvider"
             android:permission="com.sqisland.android.protected_provider.ACCESS_DATA"
             android:exported="true"/>

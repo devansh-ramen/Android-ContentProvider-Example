@@ -14,7 +14,7 @@ public class ContractPhonebook {
     public static final String CONTENT_PHONEBOOK_ITEM = "vnd.android.cursor.item/vnd.com.devanshapps.programmingreferences.words";
 
     public static final String DATABASE_NAME = "phone_book_db";
-    public static final int DATABASE_VERSION = 1;
+    public static final int DATABASE_VERSION = 2;
 
 
     public static class Phonebook implements BaseColumns {
