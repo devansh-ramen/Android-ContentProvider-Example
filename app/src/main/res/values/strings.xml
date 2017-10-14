@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Programming Refs Content Provider</string>
+    <string name="display_content">DISPLAY CONTENT</string>
+    <string name="usage_instructions">Provider Application sharing data to other apps.
+        \n You can test access to data with second application and to insert, delete or query data</string>
+</resources>
