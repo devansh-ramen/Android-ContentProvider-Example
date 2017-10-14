@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String AUTHORITY = "com.devanshapps.programmingreferences.Phonebook";
-        String PATH  = "/words";
+        String PATH  = "/phonebook";
         Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + PATH);
         ContentValues values = new ContentValues();
         values.put("person_name", "Devansh");

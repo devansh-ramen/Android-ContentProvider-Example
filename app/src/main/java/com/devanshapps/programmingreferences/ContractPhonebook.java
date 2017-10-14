@@ -7,7 +7,7 @@ import android.provider.BaseColumns;
 public class ContractPhonebook {
 
     public static final String AUTHORITY = "com.devanshapps.programmingreferences.Phonebook";
-    public static final String PATH  = "/words";
+    public static final String PATH  = "/phonebook";
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + PATH);
 
     public static final String CONTENT_PHONEBOOK_LIST = "vnd.android.cursor.dir/vnd.com.devanshapps.programmingreferences.words";

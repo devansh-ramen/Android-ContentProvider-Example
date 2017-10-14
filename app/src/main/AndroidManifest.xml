@@ -4,7 +4,7 @@
 
 
     <permission android:name="com.devanshapps.programmingreferences.READ_DATABASE"
-        android:protectionLevel="normal" />
+        android:protectionLevel="signature" />
 
     <application
         android:allowBackup="true"
